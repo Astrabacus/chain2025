@@ -1,0 +1,6 @@
+transfer_001.yaml
+---
+tx_hash: a0648c0998f50d90130a1f0c589a11a58c0ee19f255bafc308698d68744089da
+status: indexing_pending
+phase: 🜁 Air of Recognition
+narrative: "Transaktion wurde erfolgreich gesendet und erkannt, aber Geth hat sie noch nicht indexiert. Der Ursprung ist aktiv, aber noch nicht sichtbar."

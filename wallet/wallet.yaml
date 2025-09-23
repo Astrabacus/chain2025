@@ -1,0 +1,12 @@
+wallet:
+  address: "0x4Fa7B3aD32164c91eD76D37611088567E14538c3"
+  private_key: "0x4f3c2e1d9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d"
+  public_key: "0x2efee61a510e2d6696bdb7b745938fbfddefc473f5a2adf6c70d3238b8f9537bf0e3f97286d9c93327d1bc0947ca9a167efde08e67c151215c21fbe154387c2f"
+  mnemonic: "ritual galaxy audit canyon frost echo lunar vault agent drift symbol echo"
+  role: "genesis_initiator"
+  chain_id: 2025
+  balance_allocated: "1000000 ETH"
+  genesis_file: "../genesis/genesis.json"
+  symbolic_phase: "🜃 Earth of Sovereignty"
+  audit_tag: "genesis_wallet_initialized"
+  created_at: "2025-09-24T02:06:04+02:00"

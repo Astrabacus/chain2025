@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ethereumjs-util": "^7.1.5",
+    "js-yaml": "^4.1.0",
+    "web3": "^4.16.0"
+  }
+}

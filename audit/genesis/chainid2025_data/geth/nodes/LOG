@@ -1,0 +1,11 @@
+=============== Sep 26, 2025 (CEST) ===============
+21:28:18.780410 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:28:18.788569 db@open opening
+21:28:18.792936 version@stat F·[] S·0B[] Sc·[]
+21:28:18.795232 db@janitor F·2 G·0
+21:28:18.795232 db@open done T·6.6631ms
+22:08:26.016566 memdb@flush N·55835 S·3MiB
+22:08:26.054584 memdb@flush created L0@3 N·55835 S·1MiB "loc..seq,v2":"version,v1"
+22:08:26.054584 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+22:08:26.056594 memdb@flush committed F·1 T·40.0284ms
+22:08:26.057783 journal@remove removed @1

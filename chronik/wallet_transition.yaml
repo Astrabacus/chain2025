@@ -1,0 +1,10 @@
+wallet_transition:
+  old_address: "0x9eC23e5215a8d28e96bC792055251850eEa01eC0"
+  private_key: "❌ nicht vorhanden"
+  status: "unzugänglich"
+  new_wallet:
+    address: "0xGeneratedNewAddress"
+    private_key: "✅ lokal gespeichert"
+    genesis_alloc: "✔️ angepasst"
+  chain_reset: "✔️ mit neuer data/ und genesis.json"
+  symbolic_phase: "🜂 Fire of Renewal"

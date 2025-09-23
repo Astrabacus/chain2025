@@ -1,0 +1,11 @@
+genesis_block:
+  author: Daniel Aecherli
+  chain_id: 2025
+  block_number: 0
+  timestamp: "0x0"
+  alloc:
+    "0x4Fa7B3aD32164c91eD76D37611088567E14538c3": "10000000 ETH"
+  mix_hash: "ctical byzantine fault tolerance"
+  toolchain: "geth.exe"
+  flop_trigger: "Genesis Block Manifestation"
+  audit_log: "audit/genesis/chainid2025.yaml"

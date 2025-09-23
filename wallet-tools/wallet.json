@@ -1,0 +1,30 @@
+{
+  "wallet": {
+    "address": "0x4Fa7B3aD32164c91eD76D37611088567E14538c3",
+    "public_key": "🔍 nicht direkt verfügbar in Web3 v4",
+    "private_key": "0x4f3c2e1d9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d",
+    "keystore": {
+      "version": 3,
+      "id": "8906982f-8675-4cc8-90a3-5460c33dfae0",
+      "address": "4fa7b3ad32164c91ed76d37611088567e14538c3",
+      "crypto": {
+        "ciphertext": "8e7977966dff2d4f144064e901e910e1e7b509e3517cc75434f3d3cbdf01b5fa",
+        "cipherparams": {
+          "iv": "e86fe8962424016defc6a76a61e11f19"
+        },
+        "cipher": "aes-128-ctr",
+        "kdf": "scrypt",
+        "kdfparams": {
+          "n": 8192,
+          "r": 8,
+          "p": 1,
+          "dklen": 32,
+          "salt": "f14130eb4a35c2df4256b45ee94cb9dd3b1c8b513548d6fce735d69b9d063114"
+        },
+        "mac": "caf6d8b140a7519dd7adf6a8aab560a75bae51c67770946410475074bfab1379"
+      }
+    },
+    "role": "genesis_initiator",
+    "symbolic_phase": "🜃 Earth of Origin"
+  }
+}
