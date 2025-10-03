@@ -1,7 +1,0 @@
-genesis_wallet:
-  role: "Genesis 2.0"
-  address: "0x9eC23e5215a8d28e96bC792055251850eEa01eC0"
-  private_key: "0x..."  # Optional, nur lokal speichern
-  origin: "ritualized creation via CLI"
-  timestamp: "2025-09-24T00:52:00+02:00"
-  status: "active"
