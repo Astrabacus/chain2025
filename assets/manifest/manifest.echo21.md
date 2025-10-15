@@ -23,7 +23,7 @@ _Ein Artefakt des zerfallenden Zusammenhangs._
 - `README.md`  
 - `echo20.png` ← Vorheriges Artefakt  
 - `echo22.png` → Nächstes Artefakt  
-- `https://satoshi.corecraft.ch/poster/echo0.png` ← Genesis-Verknüpfung
+- `https://satoshi.corecraftgenesis.ch/poster/echo00.png` ← Genesis-Verknüpfung
 
 ## 🧭 Lizenz & Ethos  
 - **Lizenz**: CC BY-NC-SA 4.0  
