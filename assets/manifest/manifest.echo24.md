@@ -23,7 +23,7 @@ _Ein Artefakt des verblassenden Halts._
 - `README.md`  
 - `echo23.png` ← Vorheriges Artefakt  
 - `echo25.png` → Nächstes Artefakt  
-- `https://satoshi.corecraftgenesis.ch/poster/echo00.png` ← Genesis-Verknüpfung
+- `https://satoshi.corecraft.ch/poster/echo00.png` ← Genesis-Verknüpfung
 
 ## 🧭 Lizenz & Ethos  
 - **Lizenz**: CC BY-NC-SA 4.0  
