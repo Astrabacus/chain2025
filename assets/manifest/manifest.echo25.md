@@ -23,7 +23,7 @@ _Ein Artefakt der zurückgelassenen Schleife._
 - `README.md`  
 - `echo24.png` ← Vorheriges Artefakt  
 - `echo26.png` → Nächstes Artefakt  
-- `https://satoshi.corecraftgenesis.ch/poster/echo00.png` ← Genesis-Verknüpfung
+- `https://satoshi.corecraft.ch/poster/echo0.png` ← Genesis-Verknüpfung
 
 ## 🧭 Lizenz & Ethos  
 - **Lizenz**: CC BY-NC-SA 4.0  
