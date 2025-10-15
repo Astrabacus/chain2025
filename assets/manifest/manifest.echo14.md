@@ -23,7 +23,7 @@ _Ein Artefakt des verbliebenen Signals._
 - `README.md`  
 - `echo13.png` ← Vorheriges Artefakt  
 - `echo15.png` → Nächstes Artefakt  
-- `https://satoshi.corecraft.ch/poster/echo0.png` ← Genesis-Verknüpfung
+- `https://satoshi.corecraftgenesis.ch/poster/echo0.png` ← Genesis-Verknüpfung
 
 ## 🧭 Lizenz & Ethos  
 - **Lizenz**: CC BY-NC-SA 4.0  
