@@ -1,0 +1,8 @@
+movement_ritual:
+  name: "Broadway Proton"
+  type: "Spiral Drift"
+  location: "Emmental"
+  timestamp: "2025-10-16T21:00:00Z"
+  echo_binding: "Echo 26"
+  symbolic_payload: "Körperlich verankertes Genesis-Momentum"
+  verifier: "audit-loop://broadway.ritual/echo26"
