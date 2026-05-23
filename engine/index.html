@@ -9,11 +9,13 @@
 
 <body>
 
+<!-- Header dynamisch laden -->
 <div id="header"></div>
 <script>
   fetch("/header.html")
     .then(r => r.text())
-    .then(h => document.getElementById("header").innerHTML = h);
+    .then(html => document.getElementById("header").innerHTML = html)
+    .catch(err => console.error("Header konnte nicht geladen werden:", err));
 </script>
 
 <div class="wrap">
@@ -33,29 +35,39 @@
 </div>
 
 <script>
-  fetch("chronik.json")
-    .then(r => r.json())
-    .then(data => {
-      const t = document.getElementById("timeline");
-      const events = [];
+async function loadChronik() {
+  try {
+    const response = await fetch("chronik.json");
+    const data = await response.json();
 
-      events.push(data.chain2025.genesis);
-      data.chain2025.echo.forEach(e => events.push(e));
-      events.push(data.chain2025.closure);
+    const events = [
+      data.chain2025.genesis,
+      ...data.chain2025.echo,
+      data.chain2025.closure
+    ];
 
-      events.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+    // Sortieren nach Timestamp
+    events.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
 
-      events.forEach(ev => {
-        t.innerHTML += `
-          <div class="entry">
-            <div class="date">${ev.id}</div>
-            <div class="title">${ev.title}</div>
-            <div class="desc">${ev.description}</div>
-          </div>
-        `;
-      });
-    });
+    const timeline = document.getElementById("timeline");
+    timeline.innerHTML = events.map(ev => `
+      <div class="entry">
+        <div class="date">${ev.id}</div>
+        <div class="title">${ev.title}</div>
+        <div class="desc">${ev.description}</div>
+      </div>
+    `).join("");
+
+  } catch (err) {
+    console.error("Chronik konnte nicht geladen werden:", err);
+    document.getElementById("timeline").innerHTML =
+      "<p style='color:red;'>Chronik konnte nicht geladen werden.</p>";
+  }
+}
+
+loadChronik();
 </script>
 
 </body>
 </html>
+
